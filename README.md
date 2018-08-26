@@ -6,4 +6,4 @@ This project shows use of the MVC software architecture pattern using node, expr
 
 Visit the Wings Chooser at: [Wings Chooser](https://lit-shore-57043.herokuapp.com/)
 
-![Wings Chooser](./public/assets/img/wings-chooser "wings-chooser")
+![Wings Chooser](./public/assets/img/wings-chooser.png "wings-chooser")
