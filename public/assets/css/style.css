@@ -1,0 +1,20 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  list-style-type: none;
+  width: 100%
+}
+
+.jumbotron {
+  background-color: orange !important;
+  text-align: center;
+}
+
+.delete-wing {
+  margin: 5px
+}
+
+h3 {
+  text-align: center
+}

@@ -1,0 +1,10 @@
+<li>
+	{{flavor}}
+
+	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
+		{{#if devour}} Eat the Wings! {{else}} Reorder
+		<button class="delete-wing" data-id="{{this.id}}">Remove from Menu</button>
+		{{/if}}
+	</button>
+
+</li>
