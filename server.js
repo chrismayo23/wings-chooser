@@ -15,6 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public/assets/css/style.css'));
+app.use(express.static(__dirname + '/public/assets/img')); 
 
 // Set Handlebars.
 var exphbs = require("express-handlebars");
@@ -22,7 +23,7 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-app.use(express.static(__dirname + '/public/assets/img')); 
+
 
 // Import routes and give the server access to them.
 var routes = require("./controllers/wingsController.js");
