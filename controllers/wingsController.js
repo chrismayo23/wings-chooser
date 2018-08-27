@@ -11,8 +11,16 @@ router.get("/", function(req, res) {
     var hbsObject = {
       wings: data
     };
-    console.log(hbsObject);
     res.render("index", hbsObject);
+  });
+});
+
+router.get("/api/wings", function(req, res) {
+  wing.all(function(data) {
+    var hbsObject = {
+      wings: data
+    };
+    res.json(hbsObject);
   });
 });
 
